@@ -69,10 +69,10 @@ const Hero = () => {
                   <br />  <span className="text-green-400">// AI-powered code analysis</span>
                   <br />  <span className="text-blue-400">const</span> <span className="text-purple-400">suggestions</span> <span className="text-white">= </span><span className="text-yellow-300">aiModel</span><span className="text-white">.analyze(codeInput);</span>
                   <br />
-                  <br />  <span className="text-blue-400">if</span> <span className="text-white">(</span><span className="text-purple-400">suggestions</span><span className="text-white">.length > </span><span className="text-orange-300">0</span><span className="text-white">) &#123;</span>
+                  <br />  <span className="text-blue-400">if</span> <span className="text-white">(</span><span className="text-purple-400">suggestions</span><span className="text-white">.length {`>`} </span><span className="text-orange-300">0</span><span className="text-white">) &#123;</span>
                   <br />    <span className="text-blue-400">return</span> <span className="text-white">&#123;</span>
                   <br />      <span className="text-purple-400">optimized</span><span className="text-white">: </span><span className="text-yellow-300">applyOptimizations</span><span className="text-white">(codeInput, suggestions),</span>
-                  <br />      <span className="text-purple-400">improvements</span><span className="text-white">: suggestions.map(</span><span className="text-orange-300">s</span> <span className="text-white">=> s.description)</span>
+                  <br />      <span className="text-purple-400">improvements</span><span className="text-white">: suggestions.map(</span><span className="text-orange-300">s</span> <span className="text-white">{`=>`} s.description)</span>
                   <br />    <span className="text-white">&#125;;</span>
                   <br />  <span className="text-white">&#125;</span>
                   <br />
