@@ -1,7 +1,6 @@
-
 import { useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Server, Cpu, Database, Code, Lock } from 'lucide-react';
+import { Server, Cpu, Database, Code, Lock, BrainCircuit } from 'lucide-react';
 
 const TechnicalInsights = () => {
   const [activeTab, setActiveTab] = useState("frontend");
