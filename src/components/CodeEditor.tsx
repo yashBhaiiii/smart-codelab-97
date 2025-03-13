@@ -93,7 +93,7 @@ console.log(result);
 // const largeResult = calculateFibonacci(50);
 // console.log(largeResult);`);
         
-        setAiSuggestion('I've optimized your Fibonacci function using memoization to achieve O(n) time complexity instead of O(2^n). This prevents redundant calculations by storing previously computed values.');
+        setAiSuggestion("I've optimized your Fibonacci function using memoization to achieve O(n) time complexity instead of O(2^n). This prevents redundant calculations by storing previously computed values.");
         setShowSuggestion(true);
       }
       
